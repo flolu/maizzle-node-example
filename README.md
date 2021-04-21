@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/flolu/maizzle-node--example">
+  <a href="https://github.com/flolu/maizzle-node-example">
     <img width="100px" height="auto" src="maizzle.png" />
   </a>
   <br>
