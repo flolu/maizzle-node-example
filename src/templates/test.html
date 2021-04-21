@@ -1,0 +1,67 @@
+<extends src="src/layouts/master.html">
+  <block name="template">
+    <table class="w-full font-sans">
+      <tr>
+        <td align="center" class="bg-gray-100">
+          <table class="w-600 sm:w-full">
+            <tr>
+              <td class="p-48 text-center sm:py-32 sm:px-24">
+                <a
+                  href="https://maizzle.com/"
+                  class="no-underline cursor-pointer"
+                >
+                  <span class="text-2xl font-bold">Maizzle</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" class="sm:px-24">
+                <table class="w-full">
+                  <tr>
+                    <td
+                      class="p-48 text-base text-left text-gray-800 bg-white rounded sm:px-24 leading-24"
+                    >
+                      <p
+                        class="m-0 mb-24 text-2xl font-semibold text-black sm:leading-32"
+                      >
+                        Maizzle is awesome
+                      </p>
+                      <p class="m-0 mb-24">
+                        Substitution in action: @{{message}}
+                      </p>
+                      <div class="leading-full">
+                        <a
+                          href="@{{url}}"
+                          class="inline-block px-24 py-16 text-base font-semibold text-center text-white no-underline bg-blue-500 rounded hover:bg-blue-600"
+                          rel="notrack"
+                        >
+                          <span>Click me</span>
+                        </a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="h-48"></td>
+                  </tr>
+                  <tr>
+                    <td class="px-24 text-xs text-center text-gray-600">
+                      <p class="m-0 mb-4">Maizzle</p>
+                      <p class="m-0 italic">is awesome</p>
+                      <p class="cursor-default">
+                        <a
+                          href="https://maizzle.com/"
+                          class="text-blue-500 no-underline hover:underline"
+                          >Home</a
+                        >
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </block>
+</extends>

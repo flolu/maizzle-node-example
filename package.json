@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development && yarn maizzle serve",
+    "build": "maizzle build production",
+    "server": "ts-node --project tsconfig.server.json server"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@maizzle/cli": "^1.4.0",
+    "@maizzle/framework": "^3.0.0",
+    "@types/express": "^4.17.11",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
